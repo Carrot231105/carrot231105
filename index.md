@@ -4,7 +4,8 @@
     <title>Bai Tap Web 2026</title>
 </head>
 <body>
-    <h1>Xin chào! Đây là trang web đầu tiên của mình.</h1>
+    <h1><strong><em>Võ Trần Thiên Vũ - THK47SP</strong></em></h1>
+    <h2>Xin chào! Đây là trang web đầu tiên của mình.</h2>
     <p>Mình đang học lộ trình Frontend theo roadmap.sh</p>
     <h2>Danh sách bài thực hành:</h2>
 <ul>
