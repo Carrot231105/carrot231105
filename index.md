@@ -102,7 +102,7 @@
         <h2>Danh sách bài thực hành:</h2>
         <ul>
             <li><a href="file:///E:/2025-2/Lab_01_TKWeb/index.html">Bài thực hành số 1 (Lab 1)</a></li>
-            </li>
+       
             <li>
                 <a href="./Lab2/index.html">Bài thực hành số 2 (Lab 2)</a>
             </li>
