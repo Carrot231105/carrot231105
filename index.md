@@ -107,7 +107,7 @@
                 <a href="./Lab2/index.html">Bài thực hành số 2 (Lab 2)</a>
             </li>
             <li>
-                <a href="file:///E:/2025-2/TKWeb/Lab03/index.html">Bài thực hành số 3 (Lab 3)</a>
+                <a href="Lab_03_TKWeb/index.html">Bài thực hành số 3 (Lab 3)</a>
             </li>
         </ul>
     </div>
