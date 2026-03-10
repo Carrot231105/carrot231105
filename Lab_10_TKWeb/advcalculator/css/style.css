@@ -1,0 +1,82 @@
+/* 1. Đưa máy tính vào vị trí trung tâm của trang web */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Thêm viền và hiệu ứng đổ bóng vào form */
+form[name="Keypad"] {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    border: 1px solid #ddd;
+}
+
+/* Định dạng ô hiển thị kết quả (ReadOut) */
+input[name="ReadOut"] {
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* 4. Thêm khoảng cách margin, padding cho phù hợp */
+table td {
+    padding: 4px;
+}
+
+/* Định dạng chung cho các nút bấm */
+input[type="button"] {
+    width: 100%;
+    height: 45px;
+    min-width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white; /* Chữ trắng */
+    transition: background-color 0.2s;
+}
+
+/* 3. Thêm màu sắc vào các nút để phân biệt */
+
+/* Nút số (7, 8, 9...): Màu xanh dương */
+input[name^="btnOne"], input[name^="btnTwo"], input[name^="btnThree"], 
+input[name^="btnFour"], input[name^="btnFive"], input[name^="btnSix"], 
+input[name^="btnSeven"], input[name^="btnEight"], input[name^="btnNine"], 
+input[name^="btnZero"], input[name^="btnDecimal"] {
+    background-color: #007bff;
+}
+
+/* Nút chức năng (+/-, %): Màu xanh Cyan/Teal */
+input[name="btnNeg"], input[name="btnPercent"],
+input[name="btnPlus"], input[name="btnMinus"], 
+input[name="btnMultiply"], input[name="btnDivide"] {
+    background-color: #17a2b8;
+}
+
+/* Nút xóa (C, CE): Màu đỏ */
+input[name="btnClear"], input[name="btnClearEntry"] {
+    background-color: #dc3545;
+}
+
+/* Nút bằng (=): Màu xanh lá cây */
+input[name="btnEquals"] {
+    background-color: #28a745;
+}
+
+/* Hiệu ứng khi di chuột qua nút */
+input[type="button"]:hover {
+    filter: brightness(90%);
+}
