@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bài thực hành Lab 9</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            margin: 0;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 50px 60px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            min-width: 320px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 35px;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        a {
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #4CAF50, #2ecc71);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            transition: all 0.25s ease;
+        }
+
+        a:hover {
+            background: linear-gradient(135deg, #43a047, #27ae60);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+        }
+
+        a:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>BÀI THỰC HÀNH LAB 9</h1>
+
+        <div class="nav-links">
+            <a href="clock/index.html">1. Clock (Đồng hồ kim)</a>
+            <a href="canvas/index.html">2. Canvas (Vẽ hình)</a>
+            <a href="dice/index.html">3. Dice (Tung xúc xắc)</a>
+        </div>
+    </div>
+</body>
+</html>
