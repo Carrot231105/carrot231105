@@ -121,6 +121,12 @@
             <li>
                 <a href="Lab_07_TKWeb/index.html">Bài thực hành số 7 (Lab 7)</a>
             </li>
+             <li>
+                <a href="Lab_08_TKWeb/index.html">Bài thực hành số 8 (Lab 8)</a>
+            </li>
+             <li>
+                <a href="Lab_09_TKWeb/index.html">Bài thực hành số 9 (Lab 9)</a>
+            </li>
             <li>
                 <a href="Lab_10_TKWeb/index.html">Bài thực hành số 10 (Lab 10)</a>
             </li>
