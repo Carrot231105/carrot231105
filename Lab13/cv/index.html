@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Cá Nhân</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <button type="button" class="toggle-dark">🌙</button>
+
+    <div id="pdf-content">
+        <header>
+            <div class="avatar-wrapper">
+                <img src="img/avatar.png" alt="Avatar" class="avatar" />
+            </div>
+            <h1>Nguyễn Văn A</h1>
+            <p class="subtitle">Full-stack Developer</p>
+        </header>
+
+        <nav>
+            <a href="#about">Giới thiệu</a>
+            <a href="#skills">Kỹ năng</a>
+            <a href="#experience">Kinh nghiệm</a>
+            <a href="#projects">Dự án</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <main>
+            <section id="about" class="card">
+                <h2>🧑‍💼 Giới thiệu</h2>
+                <p>
+                    Tôi là Nguyễn Văn A, sinh ngày 01/01/2003, là sinh viên chuyên ngành Công nghệ Thông tin.
+                    Tôi yêu thích thiết kế giao diện web, lập trình JavaScript và phát triển các sản phẩm số có tính ứng dụng cao.
+                    Mục tiêu của tôi là trở thành lập trình viên Full-stack có khả năng xây dựng các hệ thống web hiện đại,
+                    thân thiện với người dùng và tối ưu hiệu năng.
+                </p>
+            </section>
+
+            <section id="skills" class="card skills">
+                <h2>🛠 Kỹ năng</h2>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive Web Design</span>
+                <span>Git & GitHub</span>
+                <span>Tailwind CSS</span>
+            </section>
+
+            <section id="experience" class="card">
+                <h2>💼 Kinh nghiệm</h2>
+                <ul class="experience-list">
+                    <li><strong>Thực tập sinh Front-end Developer</strong> - Công ty ABC Tech (06/2024 - 09/2024)</li>
+                    <li><strong>Cộng tác viên thiết kế website</strong> - Freelancer (10/2024 - nay)</li>
+                </ul>
+            </section>
+
+            <section id="projects" class="card">
+                <h2>🚀 Dự án nổi bật</h2>
+                <ul class="project-list">
+                    <li><strong>Website bán sách trực tuyến</strong> - Xây dựng giao diện người dùng, trang chi tiết sản phẩm và giỏ hàng.</li>
+                    <li><strong>Trang web CV cá nhân</strong> - Thiết kế giao diện hiện đại, hỗ trợ dark mode và xuất PDF.</li>
+                    <li><strong>Ứng dụng quản lý công việc</strong> - Tạo chức năng thêm, sửa, xóa và lọc công việc bằng JavaScript.</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="card">
+                <h2>📬 Liên hệ</h2>
+                <ul class="contact-list">
+                    <li>Email: nguyenvana@gmail.com</li>
+                    <li>Điện thoại: 0901 234 567</li>
+                    <li>GitHub: <a href="https://github.com/nguyenvana" target="_blank">github.com/nguyenvana</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/nguyenvana" target="_blank">linkedin.com/in/nguyenvana</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Nguyễn Văn A. Mọi quyền được bảo lưu.</p>
+        </footer>
+    </div>
+
+    <button type="button" class="btn-export">⬇ Xuất PDF</button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
