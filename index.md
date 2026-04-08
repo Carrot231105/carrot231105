@@ -130,6 +130,9 @@
             <li>
                 <a href="Lab_10_TKWeb/index.html">Bài thực hành số 10 (Lab 10)</a>
             </li>
+            <li>
+                <a href="Lab_13_TKWeb/index.html">Bài thực hành số 13 (Lab 10)</a>
+            </li>
         </ul>
     </div>
 
